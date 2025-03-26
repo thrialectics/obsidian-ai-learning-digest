@@ -1,0 +1,36 @@
+## Virtual environment
+.venv/
+venv/
+env/
+
+## Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env*
+
+# Configuration with API keys
+config.py
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+
+# User-specific files
+com.user.obsidian-summarizer.plist
+*.log

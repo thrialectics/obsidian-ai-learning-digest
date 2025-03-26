@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.obsidian-summarizer</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/full/path/to/obsidian-summarizer/run_summarizer.sh</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>6</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/full/path/to/obsidian-summarizer/cron.log</string>
+    <key>StandardErrorPath</key>
+    <string>/full/path/to/obsidian-summarizer/cron.log</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartOnMount</key>
+    <true/>
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+    </dict>
+</dict>
+</plist> 
