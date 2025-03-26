@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Example launchd configuration file for Obsidian Summarizer -->
+<!-- Copy this file to ~/Library/LaunchAgents/com.user.obsidian-summarizer.plist -->
+<!-- Replace [USERNAME] and [PATH] with your actual values -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -6,7 +9,7 @@
     <string>com.user.obsidian-summarizer</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/full/path/to/obsidian-summarizer/run_summarizer.sh</string>
+        <string>/Users/[USERNAME]/path/to/obsidian-summarizer/run_summarizer.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -16,9 +19,9 @@
         <integer>0</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/full/path/to/obsidian-summarizer/cron.log</string>
+    <string>/Users/[USERNAME]/path/to/obsidian-summarizer/cron.log</string>
     <key>StandardErrorPath</key>
-    <string>/full/path/to/obsidian-summarizer/cron.log</string>
+    <string>/Users/[USERNAME]/path/to/obsidian-summarizer/cron.log</string>
     <key>RunAtLoad</key>
     <true/>
     <key>StartOnMount</key>
