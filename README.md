@@ -1,6 +1,6 @@
 # Obsidian Summarizer
 
-A Python script that automatically summarizes your daily Obsidian notes and creates a learning vault with summaries and glossaries.
+A Python script that automatically summarizes your daily Obsidian notes and saves to a learning vault with summaries and glossaries.
 
 ## Features
 
